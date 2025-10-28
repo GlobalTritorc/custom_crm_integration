@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_crm_integration"
+version = "0.0.1"
+authors = [
+  { name="Nitin Gaikwad", email="nitin@tritorc.com" },
+]
+description = "Custom multi-company integration for ERPNext and CRM"
+readme = "README.md" # Optional, if you have one
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Choose your license
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "frappe>=15" # Specify required Frappe version
+]
+
+[project.urls] # Optional
+"Homepage" = "https://github.com/GlobalTritorc/custom_crm_integration"
+"Bug Tracker" = "https://github.com/GlobalTritorc/custom_crm_integration/issues"
